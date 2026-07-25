@@ -52,18 +52,18 @@
     <table>
         <thead>
             <tr>
-                <th rowspan="2" class="formatacao">Área</th>
-                <th rowspan="2" class="formatacao">Disciplinas</th>
-                <th colspan="2" class="formatacao">Notas</th>
-                <th rowspan="2" class="formatacao">Média</th>
+                <th rowspan="2" class="formatacao" scope="col">Área</th>
+                <th rowspan="2" class="formatacao" scope="col">Disciplinas</th>
+                <th colspan="2" class="formatacao" scope="colgroup">Notas</th>
+                <th rowspan="2" class="formatacao" scope="col">Média</th>
             </tr>
             <tr>
-                <th class="formatacao">Nota 1</th>
-                <th class="formatacao">Nota 2</th>
+                <th class="formatacao" scope="col">Nota 1</th>
+                <th class="formatacao" scope="col">Nota 2</th>
             </tr>
             <tbody>
                 <tr>
-                    <th rowspan="4" class="tipo">Exatas</th>
+                    <th rowspan="4" class="tipo" scope="rowgroup">Exatas</th>
                     <td>Matemática</td>
                     <td class="num">10</td>
                     <td class="num">10</td>
@@ -88,11 +88,11 @@
                     <td class="num">8</td>
                 </tr>
                 <tr>
-                    <th colspan="4" class="formatacao" id="lado">Média de Exatas</th>
+                    <th colspan="4" class="formatacao" id="lado" scope="row">Média de Exatas</th>
                     <td class="formatacao" id="lado2">8.5</td>
                 </tr>
                   <tr>
-                    <th rowspan="2" class="tipo">Humanas</th>
+                    <th rowspan="2" class="tipo" scope="rowgroup">Humanas</th>
                     <td>História</td>
                     <td class="num">10</td>
                     <td class="num">10</td>
@@ -103,7 +103,7 @@
                     <td class="num">10</td>
                     <td class="num">9</td></tr>
                 <tr>
-                    <th colspan="4" class="formatacao" id="lado">Média de Humanas</th>
+                    <th colspan="4" class="formatacao" id="lado" scope="row">Média de Humanas</th>
                     <td class="formatacao" id="lado2">9.5</td>
                 </tr>
             </tbody>
