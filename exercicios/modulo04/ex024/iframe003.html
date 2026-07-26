@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça sua escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed vitae, illum, porro dolore saepe hic similique ut possimus esse vel minima magnam cupiditate enim ab ratione labore minus at aut!</p>
+
+    <ul>
+        <li><a href="paginas-extras/pagina001.html" target="frame">Primeira Página</a></li>
+        <li><a href="paginas-extras/pagina002.html" target="frame">Segunda Página</a></li>
+        <li><a href="paginas-extras/pagina003.html" target="frame">Terceira Página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas id enim nulla corrupti neque perspiciatis voluptas, dolorem repellat omnis vero ipsa ducimus ipsam hic, quos reiciendis distinctio. Aut, tempore aspernatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro itaque deserunt quia soluta ipsa corporis aliquam, dicta autem, asperiores possimus voluptatum. Sunt culpa consequatur omnis sint ipsum, necessitatibus optio ducimus!</p>
+
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das Opções Acima:</h1><img src='imagem/Logo-Ceará.png'>">
+        <p>Infelizmente seu navegador não é compatível com isso.</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, explicabo? Culpa enim eos, nesciunt fugit consequatur atque. Possimus, autem nemo eius neque voluptates, dolores suscipit quidem illum iusto velit hic. Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi officia cum reiciendis quia ullam, dicta necessitatibus laboriosam aliquid sapiente quae voluptatem fugiat ipsam dignissimos error labore rem culpa at eaque.</p>
+</body>
+</html>
