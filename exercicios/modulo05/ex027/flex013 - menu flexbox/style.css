@@ -26,12 +26,13 @@ header {
 }
 
 header > h1 {
-    border: 1px dotted black;
+    /*border: 1px dotted black;*/
     flex: 0 0 400px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.644);
 }
 
 header > nav {
-    border: 1px dotted black;
+    /*border: 1px dotted black;*/
 
     display: flex;
     flex-flow: row wrap;
@@ -63,15 +64,21 @@ main {
 }
 
 div.img {
-    background-image: url(pexels-davegarcia-35567437.jpg);
+    background-image: url(pexels-foadshariyati-29084386.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 50px;
+    padding: 10px;
     color: lime;
     border-radius: 15px;
 }
 
+main > div > h2 {
+    line-height: 3em;
+}
+
 main > div > p {
     text-align: justify;
+    line-height: 1.5em;
+    text-indent: 30px;
 }
