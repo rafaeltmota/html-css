@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(10, auto);
+}
+
+.topo {
+    grid-area: 1 / 3 / 1 / 4;
+    align-items: center;
+}
+
+.menu {
+    grid-area: 4 / 5 / 1 / 4;
+    align-items: center;
+}
+
+.principal {
+    grid-area: 6 / 8 / 1 / 3;
+    align-items: center;
+}
+
+.secundario {
+    grid-area: 6 / 8 / 3 / 4;
+    align-items: center;
+}
+
+.rodape {
+    grid-area: 6 / 8 / 1 / 3;
+    align-items: center;
+}
